@@ -1,0 +1,19 @@
+{
+  "name": "prime-patient-main-theme",
+  "version": "1.0.0",
+  "description": "WordPress theme for Turnkey Consult landing page",
+  "scripts": {
+    "build:css": "tailwindcss -i ./assets/css/input.css -o ./assets/css/style.css --minify",
+    "watch:css": "tailwindcss -i ./assets/css/input.css -o ./assets/css/style.css --watch"
+  },
+  "keywords": [
+    "wordpress",
+    "theme",
+    "tailwind"
+  ],
+  "author": "Radiant Edge Marketing",
+  "license": "GPL-2.0-or-later",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
